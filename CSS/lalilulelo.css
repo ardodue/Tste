@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+h2 {
+    color: red;
+}
+
+.image-placeholder {
+    width: 1280px;
+    height: 800px;
+    margin-left: 312px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(255, 233, 111);
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 233, 111);
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: rgb(250, 21, 52);
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px 0;
+}
+
+
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.texto-piscando {
+    animation: piscar 2s infinite;
+}
